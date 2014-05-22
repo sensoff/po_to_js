@@ -1,6 +1,14 @@
 grunt task .po to .js
 ========
 
+Running
+
+```sh
+  grunt po_to_js
+```
+
+or included in any other task
+
 Gruntfile.js
 
 ```sh
