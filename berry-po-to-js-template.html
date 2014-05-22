@@ -1,0 +1,9 @@
+(function() {
+  define(function() {
+    return {
+      initialize: function(app) {
+        app.locale_texts = <%= json %>;
+      }
+    };
+  });
+}).call(this);
