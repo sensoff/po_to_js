@@ -86,13 +86,13 @@ json = {
   "registration": { 
     "en": { 
       "validators": { 
-	"email": {
-	  "pattern": "Hm, that email address is invalid. Try again?",
-	  "required": "Please enter your email address"
-	},
-	"password": {
-	  "rangeLength": "Your name must be at least 3 characters",
-	  "required": "Please enter your name"
+          "email": {
+            "pattern": "Hm, that email address is invalid. Try again?",
+            "required": "Please enter your email address"
+          },
+          "password": {
+            "rangeLength": "Your name must be at least 3 characters",
+            "required": "Please enter your name"
         },
         ...
       },
