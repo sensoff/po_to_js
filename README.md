@@ -1,6 +1,29 @@
 grunt task .po to .js
 ========
 
+Gruntfile.js
+
+```sh
+  grunt.initConfig({
+      ...
+      po_to_js: {
+            berry: {
+                files: [{
+                    cwd: '<%= yeoman.app %>/texts-locale',
+                    src: '{,*/}*.po',
+                    dest: '.tmp/scripts',
+                    ext: '.js',
+                    expand: true,
+                    template: 'tasks/berry-po-to-js-template.html'
+                }]
+            }
+        },
+    },
+    ...
+  });
+       
+```
+
 example .po file
 
 ```sh
